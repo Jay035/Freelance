@@ -1,0 +1,230 @@
+body{
+  background-image:url(3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  background-color:whitesmoke;
+  position: absolute;
+  left: 2.5em;
+  top: 2em;
+  height: 33em;
+  width: 20em;
+  text-align: center;
+  border-radius:30px;
+ 
+}
+#nav_h1{
+  color: coral;
+  margin:10px auto 0 auto ;
+  text-align: left;
+}
+h1{
+  color:coral ;
+  padding:10px;
+}
+a{
+  text-decoration: none;
+  color:coral;
+  
+}
+form{
+  margin-top: 20px;
+}
+input{
+  height:1.5em ;
+  width: 15em;
+  padding: 10px;
+  border-radius:30px;
+  border-color: coral;
+}
+.input1{
+  margin-bottom: 20px;
+}
+button {
+  width: 10em;
+  height: 2.5em;
+  border-radius:30px;
+  background-color:coral;
+  border-color: coral;
+  color: white;
+  margin-top: 10px;
+  
+}
+button a{
+  color: white ;
+  
+}
+
+#account{
+  width:30px;
+  height:15px;
+  
+}
+#myform input[type="password"] {
+  background: transparent;
+  border: 2px solid coral;
+  background-color: white;
+  
+  padding:10px  ;
+  height:1.5em ;
+  width: 15em;
+  text-indent: 6px;
+  -webkit-appearance: none;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+
+
+}
+
+
+
+@media (min-width: 600px){
+  body{
+  background-image:url(3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+ 
+div{
+  background-color:whitesmoke;
+  text-align: center;
+  display:inline-block;
+  position: relative;
+  left: 26em;
+  top:2em;
+  height:38em;
+  width: 30em;
+  border-radius:30px;
+}
+h1 #nav_h1{
+  color: coral;
+  margin:10px auto 0 auto ;
+}
+h1{
+  color:coral ;
+  padding: 20px;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color:coral;
+  
+}
+form{
+  margin-top: 20px;
+}
+input{
+  height:2.5em ;
+  width: 27em;
+  padding: 10px;
+  border-radius:30px;
+  border-color: coral;
+}
+.input1{
+  margin-bottom: 20px;
+}
+button {
+  width: 15em;
+  height: 4em;
+  border-radius:30px;
+  background-color:coral;
+  border-color: coral;
+  color: white;
+  margin-top: 10px;
+}
+button a{
+  color: white ;
+}
+ label{
+   padding-top: 20px;
+}
+#account{
+  width:30px;
+  height:15px;
+  
+}
+#myform input[type="password"] {
+  background: transparent;
+  border: 2px solid coral;
+  background-color: white;
+  
+  padding:10px  ;
+  height:2.5em ;
+  width: 27em;
+  text-indent: 6px;
+  -webkit-appearance: none;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+@media (min-width: ) {
+  body{
+  background-image:url(3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+}
+nav h1{
+  color: coral ;
+  margin:5px auto ;
+}
+div{
+  background-color:whitesmoke;
+  position: absolute;
+  left: 15rem;
+  top: 0;
+  height: 35rem;
+  width: 10rem;
+  text-align: center;
+  border-radius:30px;
+}
+h1{
+  color:coral ;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color:coral;
+  
+}
+form{
+  margin-top: 20px;
+}
+input{
+  height:1.5rem ;
+  width: 13rem;
+  padding: 10px;
+  border-radius:30px;
+  border-color: coral;
+}
+.input1{
+  margin-bottom: 20px;
+}
+button {
+  width: 16rem;
+  height: 4rem;
+  border-radius:30px;
+  background-color:coral;
+  border-color: coral;
+  color: white;
+  margin-top: 10px;
+}
+
+button a{
+  color: white ;
+}
