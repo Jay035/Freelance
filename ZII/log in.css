@@ -1,0 +1,176 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image:url(3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+}
+nav{
+  display: none;
+}
+
+div{
+    background-color:whitesmoke;
+    height: 30em;
+    width: 20em;
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    border-radius:30px;
+}
+div #nav_h1{
+  color: coral;
+  position: relative;
+  top: 10px;
+  left: 0;
+  text-align: left;
+}
+div h1{
+  font-size: 23px;
+  text-align: center;
+  margin-top: 25px;
+}
+div p{
+ position: absolute;
+ top: 70px !important;
+ left: 20px;
+ 
+ 
+}
+h1{
+  color:coral ;
+  padding: 20px;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color:coral;
+  
+}
+form{
+  margin-top: 20px;
+}
+input{
+  height:1.5em ;
+  width: 15em;
+  padding: 10px;
+  border-radius:30px;
+  border-color: coral;
+}
+#input{
+  margin-left: 40px;
+}
+.input1{
+  margin-bottom: 20px;
+}
+#fp{
+  margin-left: 140px;
+}
+button {
+  width: 10em;
+  height: 2.7em;
+  border-radius:30px;
+  background-color:coral;
+  border-color: coral;
+  color: white;
+  margin-top: 10px;
+  margin-left: 75px;
+  
+}
+button a{
+  color: white ;
+}
+ 
+
+@media (min-width:600px) {
+  body{
+    background-image:url(3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  nav{
+    display: block;
+  }
+  nav h1{
+    color: coral;
+    margin:20px auto ;
+    font-size: 2em;
+    display: block;
+  }
+  nav p{
+    font-size: 1.4em;
+    text-align: right;
+    position: relative;
+    top: -76px !important;
+    right: 60px;
+  }
+  
+
+  div{
+    background-color:whitesmoke;
+    text-align: center;
+    display:inline-block;
+    position: relative;
+    left: 27.875em !important;
+    top: -0.0625em !important;
+    height:25rem;
+    width: 30rem;
+    border-radius:30px;
+  }
+  div #nav_h1 {
+    display: none;
+ }
+ div p{
+   display: none;
+ }
+  h1{
+    color:coral ;
+    padding: 20px;
+    font-size: 30px;
+  }
+  a{
+    text-decoration: none;
+    color:coral;
+    
+  }
+  form{
+    margin-top: 20px;
+  }
+  input{
+    height:2.5rem ;
+    width: 26rem;
+    padding: 10px;
+    border-radius:30px;
+    border-color: coral;
+    margin-bottom: 20px;
+  }
+  .input1{
+    margin-bottom: 20px;
+  }
+  button {
+    width: 13rem;
+    height: 3rem;
+    border-radius:30px;
+    background-color:coral;
+    border-color: coral;
+    color: white;
+    
+  }
+  #btn{
+    font-size: 21px;
+    color: white ;
+    display: block;
+    position: relative;
+    margin-left: 125px;
+    margin-top: 20px;
+    border-left-style: solid;
+  }
+   
+ #fp{
+  display: block;
+  position: absolute;
+  top: 276px !important;
+  right: 40px !important;
+  padding-bottom: 10px;
+ }
