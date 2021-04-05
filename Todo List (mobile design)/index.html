@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ToDo</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="overlay" id="overlay">
+    <h3>Searching Now</h3>
+  </div>
+      <input type="text" placeholder="Search todo.." id="topnav">
+  
+    <section id="top">
+      <img src="Images/book.png" alt="a box of books" id="top-left">
+      <p id="top-right">Organize your time for more Productivity</p>
+    </section>
+    
+    <section id="categories">
+      <h3>Todo Categories</h3>
+      <div class="categories-body">
+        <div class="categories-column">
+      <img src="Images/education.png" alt="Education icon" />
+      <p>School</p>
+      </div>
+    <div class="categories-column">
+     <img src="Images/game.png" alt="holiday icon" />
+     <p>Holiday</p>
+     </div>
+    <div class="categories-column">
+     <img src="Images/business.png" alt="business icon" />
+     <p>Business</p>
+     </div>
+     <div class="categories-column">
+     <img src="Images/shopping.png" alt="shopping icon" style="width: 5.4rem;margin:0;" />
+     <p>Shopping</p>
+     </div>
+      </div>
+    </section>
+    <section id="tasks">
+      <h2>Today's Task</h2>
+   <div class="inp">
+     <div id="baking">
+      <input type="checkbox" name="baking"  value="" />
+      <label for="baking">Making some bakery</label>
+     </div>
+     <div id="hang-out">
+    <input type="checkbox" name="hang-out"value="" />
+      <label for="hang-out">Hang out with friends</label>
+      </div>
+      <div id="figma">
+    <input type="checkbox" name="" value="" />
+        <label for="figma"><s>Continue working on figma </s> </label>
+      </div>
+      <div id="fig">
+    <input type="checkbox" name="" value=""/>
+        <label for="fig">Continue working on figma</label>
+        </div>  
+      </div>
+    </section>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body> 
+</html>
