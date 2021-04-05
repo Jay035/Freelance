@@ -62,7 +62,7 @@ button{
 }
 .me{
     width: 3em;
-    border-radius: 50%;
+    border-radius: 25%;
     margin-top:.2em;
 }
 .arrow{
