@@ -1,0 +1,101 @@
+
+:root{
+  --leading:
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #eeeeee;
+}
+/*Top section*/
+#topnav{
+  border:thin solid #e5e5e5;
+  box-shadow: 1px #e5e5e5;
+  border-radius:15px;
+  margin:2em;
+  outline:0;
+  padding-left:4em;
+  width:15rem;
+  height:2rem;
+}
+
+#top{
+  background: #562fca;
+  border-radius: 20px;
+  width: 90%;
+  position:relative;
+  left:.9em;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#top-left{
+  width:7rem;
+  flex-basis: 40%;
+  
+}
+#top-right{
+  flex-basis: 60%;
+  line-height: 2;
+  color: white;
+  
+}
+/*Categories section*/
+#categories{
+  margin:3em 1.6em;
+  
+ 
+}
+.categories-column{
+  float: left;
+  width: 25%;
+  
+}
+
+
+.categories-body::after {
+  content: "";
+  clear: both;
+  display:table ;
+  
+}
+
+.categories-body img{
+  width:3rem;
+}
+/* Tasks section*/
+
+#tasks h2{
+  margin:2em auto 1.2em .8em;
+}
+#tasks input{
+  width:2rem;
+  height: 1.4rem;
+  margin-top: .8em;
+ background-color:blue;
+}
+#baking,#hang-out,#figma,#fig{
+  background: #fff;
+  display: block;
+  width: 87vw;
+  height: 2.6rem;
+  margin:.8em auto .6em;
+  padding: .2em;
+  padding-top: 0;
+  font-size: 16px ;
+  font-weight: bold;
+  border-radius: 20px;
+}
+#fig{
+  margin-bottom: 2em;
+}
+.overlay{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, .9);
+  z-index: 1;
+
+}
+  
