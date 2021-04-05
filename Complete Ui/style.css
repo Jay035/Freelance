@@ -9,10 +9,21 @@ body{
 .container{
     margin: 0 auto;
     text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity:0;
+    transform: translate(-2em);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 .logo{
-      width: 120px;
-      font-weight: bold;
+      text-align: left;
+      font-weight: bolder;
 }
 h1{
     margin: 1em 0;
@@ -32,21 +43,25 @@ h1, p, .logo{
 .right p {
    margin: 2em 0 1em;
    color: #000;
+   font-size: 20px;
 }
 .light{
     color: rgba(255,255,255,.7)!important;
     margin-top: 2em;
 }
 input,button{
-    width: calc(100% - 3em);
-    padding:.5em ;
+    width: calc(100% - 5em);
+    height: 6vh;
+    padding:.2em ;
     font-size: 1.3rem;
     outline: none;
     margin: 1em;
+    border: none;
+    border-radius: 10px;
 }
 
 button{
-    width: calc(100% - 2em);
+    width: calc(100% - 7em);
     margin: 0;
     background: #8800ff;
     border: none;
@@ -61,13 +76,13 @@ button{
     text-align: center;
 }
 .me{
-    width: 3em;
-    border-radius: 25%;
+    width: 2em;
+    border-radius: 50%;
     margin-top:.2em;
 }
 .arrow{
-    width: 10em;
-    height: 4em;
+    width: 3em;
+    height: 2em;
     transform: scale(-1.9,1.5);
     opacity: 0.5;
 }
