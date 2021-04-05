@@ -1,0 +1,379 @@
+body{
+  background-image: url(Images/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:100%;
+}
+h1{
+  color: white;
+  display: inline-block;
+  margin:20px 30px auto 10px;
+}
+a {
+  margin:0 10px;
+  color: whitesmoke;
+  text-decoration:none;
+}
+.nav-left{
+  text-align: left;
+  margin-top:20px; 
+}
+.nav-right{
+  text-align: right;
+  
+}
+button  {
+  width: 140px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 100;
+  border-radius: 20px;
+  border: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+ 
+}
+button.btn1 a{
+  margin-right: 30px;
+  color: coral;
+  background-color: whitesmoke;
+  
+}
+.btn2{
+  background-color: coral;
+}
+
+
+
+/*body area*/
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+#container > div{
+  margin: 10px 40px 0 80px;
+  padding:0 20px ;
+  width: 400px;
+}
+  #container h1{
+  color: white;
+  font-size: 4rem;
+  
+}
+ #container p{
+  color: whitesmoke;
+  margin: 0;
+  padding-top: 10px;
+  padding-left:10px ;
+  text-align: justify;
+  font-weight: 200;
+  width: 240px;
+}
+#container img{
+  width:35%;
+  height:40%;
+    position: absolute;
+    right: 150px;
+    top: 230px;
+  }
+
+#foot-btn{
+  display: flex;
+  flex-wrap: wrap;
+  margin:40px 100px ;
+  color: coral;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#foot-btn p{
+  padding:5px 5px 5px 10px;
+  margin: 0;
+  color: coral;
+}
+#img2{
+  height: 180px;
+   position: absolute;
+   top: 32rem;
+   left: 4rem;
+}
+
+
+
+@media (max-width:599px) {
+  body{
+  background-image: url(Images/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:100%;
+  overflow: hidden;
+}
+h1{
+  color: white;
+  display: inline-block;
+  margin:20px 30px auto 10px;
+}
+a {
+  margin:0 10px;
+  color: whitesmoke;
+  text-decoration:none;
+}
+
+nav{
+  overflow: hidden;
+  
+}
+.nav-left{
+  display: none;
+}
+
+.btn1,.btn2{
+  display: none;
+}
+
+
+.links{
+  position: absolute;
+}
+#create a{
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  top: -25px;
+  margin: 0;
+  text-align: right;
+  padding-right: 20px ;
+  font-size: 19px;
+}
+
+button  {
+  width: 140px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 100;
+  border-radius: 20px;
+  border: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+ 
+}
+button.btn1 a{
+  margin-right: 30px;
+  color: coral;
+  background-color: whitesmoke;
+  
+}
+.btn2{
+  background-color: coral;
+}
+
+/*body area*/
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#container > div{
+  margin: 4em 2.5em 0 0.5em;
+  padding:0 1em ;
+  width: 18.75%;
+  position: relative;
+}
+  #container h1{
+  color: white;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+ #container p{
+  color: whitesmoke;
+  margin: 0;
+  padding-top: 10px;
+  padding-left:10px ;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 17px;
+  width: 240px;
+  
+}
+#container img{
+  width:20rem;
+  height:20rem;
+  position: absolute;
+  right: 0;
+  top: 53%;
+  }
+
+#foot-btn{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin:40px 40px ;
+  color: coral;
+  width: 200px;
+  padding-left:0 ;
+  height: 40px;
+  font-size: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#foot-btn p{
+  padding:5px 5px 5px 10px;
+  margin: 0;
+}
+#img2{
+  height: 180px;
+   position: absolute;
+   top: 32rem;
+   left: 4rem;
+}
+} 
+
+
+@media (min-width:600px) {
+  body{
+  background-image: url(Images/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:100%;
+  overflow: hidden;
+}
+h1{
+  color: white;
+  display: inline-block;
+  margin:20px 30px auto 10px;
+}
+a {
+  margin:0 10px;
+  color: whitesmoke;
+  text-decoration:none;
+}
+.nav-left{
+  text-align: left;
+  margin-top:20px; 
+  
+}
+#create a{
+  display: none;
+}
+.nav-right img {
+width: 45rem;
+height: 32rem;
+    position: absolute;
+    top: 119px   !important;
+    right: -90px !important;
+    -webkit-transform: rotate(0);
+    -moz-transform:rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+.nav-right{
+  text-align: right;
+  position: absolute;
+  top: 30px !important;
+  right: 90px !important;
+  
+}
+.links{
+  position: absolute;
+  left: 97px;
+  top: 36px;
+}
+button  {
+  width: 140px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 100;
+  border-radius: 20px;
+  border: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+ 
+}
+button.btn1 a{
+  margin-right: 30px;
+  color: coral;
+  background-color: whitesmoke;
+  
+}
+.btn{
+  background-color: whitesmoke;
+}
+.btn2{
+  background-color: coral;
+}
+ .create{
+   display: none;
+ }
+
+
+
+
+/*body area*/
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+#container > div{
+  margin: 10px 40px 0 80px;
+  padding:0  ;
+  width: 650px;
+}
+  #container h1{
+  color: white;
+  font-size: 5rem;
+  padding: 0;
+  line-height: 1;
+  
+}
+ #container p{
+  color: whitesmoke;
+  margin: 0;
+  padding-top: 10px;
+  padding-left:10px ;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 200;
+  width: 260px;
+}
+#container img{
+  width: 35rem;
+  height: 32rem;
+    position: absolute;
+    top: 140px ;
+    right: 0;
+}
+ 
+
+#foot-btn{
+  display: flex;
+  flex-wrap: wrap;
+  margin:30px 80px ;
+  color: coral;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#foot-btn p{
+  padding:5px 5px 5px 10px;
+  margin: 0;
+}
+#img2{
+  height: 155px;
+   position: absolute;
+   top: 30rem;
+   left: 4rem;
+}
+
+
