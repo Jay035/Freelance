@@ -1,0 +1,367 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 18px;
+    
+}
+.desktop-menu{
+  display: none;
+}
+#nav{
+   background-color: #000645;
+}
+a{
+    background-color: transparent;
+}
+.container-fluid{
+    height: 3.6rem;
+    width:100%!important;
+   
+}
+.nav_brand{
+    background-image: url("https://assets-global.website-files.com/5e4aed4c63cef50e8905b9ab/5e4b02643c3a77a643402608_alt-logo-white.svg");
+    width: 250px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+    height: 59px;
+   
+}
+
+.navbar-toggler{
+    height: 3.5rem;
+    border: none;
+  }
+  .navbar-toggler-icon{
+    height: 2.5rem;
+    width:2.5rem;
+  }
+  
+  #links{
+    background-color: #000645;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+  }
+  
+  #links a{
+    color: #fff;
+    text-align: left;
+    padding:1.5em;
+   
+  }
+  
+  section.box-title{
+      padding: 1em auto;
+      margin-top: 2em;
+      text-align: center;
+  }
+  section.box-title h3{
+      font-weight: bold;
+      padding-bottom: .6em;
+      color: #021b88;
+  }
+  section.box-title a{
+      text-decoration: none;
+  }
+  section.box-title p{
+      color: #001480;
+    
+  }
+  
+  .container{
+    display: flex;
+  }
+ 
+   .body{
+     background-color: #0536d4;
+     border-radius: 20px;
+     height: 105%;
+     color: #fff;
+     margin:1em 2em;
+   }
+   .april h3{
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     padding:1em ;
+   }
+   .june h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding:1em ;
+   }
+   .february h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding:1em ;
+   }
+   .row {
+     padding: auto 2em;
+   }
+   .roww {
+     display: flex;
+     margin: -10px 15px;
+     background-color: #092994;
+     height: 3.2rem;
+     width: 89%;
+   }
+   #june{
+     margin-top: 5em;
+     height: 90%!important;
+   }
+   #feb{
+      margin-top: 5em;
+      height: 91%!important;
+   }
+   .column{
+    flex: 50%;
+    padding:10px ;
+    margin: .2em;
+    margin-bottom: .7em;
+  }
+  .table-sm{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 110%;
+  }
+  td{
+    text-align: left;
+    padding:2em ;
+    font-size: 20px;
+  }
+  .no{
+    color: #7efff9;
+  }
+  #h1{
+    margin: -3em 2.9em;
+    position: absolute;
+    font-size: 40px;
+    opacity: .5;
+    font-weight: bold;
+   }
+  button#button{
+    width: 80%;
+    margin: 1.5em 1.5em 0;
+    padding: 1em;
+    border: none;
+    background-color: #7efff9;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  .but{
+    background-color: #ffe629!important;
+  }
+  .img{
+    width: 18%;
+    position: fixed;
+    top: 155px;
+    left: 280px;
+    z-index:-1;
+  }
+  #get-btn{
+    width: 70%;
+    text-align: center;
+    margin: 4.5em 3.5em;
+    border-radius: 30px;
+    padding: .9em 1.4em;
+    font-weight: bold;
+    font-size: 20px;
+    overflow-x: hidden;
+    background-color: #092994;
+    color: #fff;
+ }
+ 
+
+
+  @media (min-width:768px) {
+    *{
+     box-sizing: border-box; 
+    
+    }
+    header{
+      background-color: #000645;
+      position: sticky;
+      padding:.7em ;
+    }
+    .desktop-menu{
+      display: block;
+      width: 100%;
+    }
+    
+   #nav{
+     display: none;
+    }
+    
+    .navbar-brand{
+      background-image: url("https://assets-global.website-files.com/5e4aed4c63cef50e8905b9ab/5e4b02643c3a77a643402608_alt-logo-white.svg");
+      width: 250px;
+      background-size: 240px;
+      background-repeat: no-repeat;
+      height: 59px;
+     }
+     
+
+    #btn{
+      display: none;
+    }
+    #navbarSupportedContent{
+      padding-left: 30%;
+    }
+    #menu li{
+      float: left;
+      
+    }
+
+    #menu li a{
+      padding-right: .8rem;
+      color: #fff;
+      font-size: 16px;
+      width: 100%;
+    }
+    #menu li a:hover{
+      font-weight: bold;
+    }
+   
+  #links{
+      display: none;
+    }
+  #navbarDropdown{
+      font-weight: normal;
+    }
+    section.box-title{
+      padding: 1em auto;
+      margin-top: 2em;
+      text-align: center;
+  }
+  section.box-title h3{
+      font-weight: bold;
+      padding-bottom: .6em;
+      color: #021b88;
+      font-size: 40px;
+  }
+  section.box-title a{
+      text-decoration: none;
+  }
+  section.box-title p{
+      color: #001480;
+     font-size:25px ;
+  }
+   
+   .container{
+     display: flex;
+     margin-left: 12em;
+     margin-top: 1.5em;
+   }
+   .body{
+     background-color: #0536d4;
+     border-radius: 20px;
+     height: 105%;
+     color: #fff;
+     margin: 0;
+   }
+   .april h3{
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     padding:1em ;
+   }
+   .june h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding:1em ;
+   }
+   .february h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding:1em ;
+   }
+   .col{
+    height: 100%;
+   }
+   .row{
+     padding:auto 2em ;
+   }
+   .roww{
+     display: flex;
+     margin: -10px 15px ;
+     background-color: #092994;
+     height: 3.2rem;
+     width: 89%;
+   }
+   #june{
+    margin-top: 0;
+    height: 115%!important;
+  }
+   #feb{
+     margin-top: 0;
+     height: 105%!important;
+  }
+   .column{
+     flex: 50%;
+     padding:10px ;
+     margin: .2em;
+     margin-bottom: .7em;
+   }
+   
+   .table-sm{
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 110%;
+   }
+   
+   td{
+     text-align: left;
+     padding:2em ;
+     font-size: 20px;
+   }
+   
+   .no{
+     color: #7efff9;
+   }
+   #h1{
+    margin: -3.5em 2.7em;
+    position: absolute;
+    font-size: 40px;
+    opacity: .5;
+    font-weight: bold;
+   }
+   
+   button#button{
+     width: 80%;
+     margin: 1.5em 1.5em 0;
+     padding: 1em;
+     border: none;
+     background-color: #7efff9;
+     font-weight: bold;
+     border-radius: 30px;
+   }
+  
+   .but{
+     background-color: #ffe629!important;
+   }
+   .img{
+    width: 18%;
+    position: fixed;
+    top: 155px;
+    left: 280px;
+    z-index:-1;
+  }
+   #get-btn{
+      width: 17%;
+      text-align: center;
+      margin: 4.5em 27em;
+      border-radius: 30px;
+      padding: .9em 1.4em;
+      font-weight: bold;
+      font-size: 20px;
+      overflow-x: hidden;
+      background-color: #092994;
+      color: #fff;
+   }
+  }
