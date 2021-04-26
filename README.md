@@ -1,5 +1,5 @@
 # Freelance
 
-#LIVE LINKS
-#AltSignals
+# LIVE LINKS
+# AltSignals
 https://jay035.github.io/AltSIGNALS./
