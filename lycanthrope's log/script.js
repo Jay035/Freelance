@@ -2,7 +2,6 @@ console.log("--------Jack's lycanthrope History 2021--------");
 let weekdays = ["first day","second day","third day","fourth day", "fifth day"];
 let weekdayHandler = [];
 let identity = prompt("----Hello, I'm Jack, what's your name?").toUpperCase();
-let errorMessage = 'Your name is required';
 let transformTriggers = {
     "transformTrigger1" :'blood',
     "transformTrigger2" : "animals",
@@ -27,24 +26,32 @@ const promptEvent = () => {
 
     if(event === '' || event === null){
         console.error('Enter an event');
-        event = prompt('Enter event ', '').toLowerCase();
+        promptEvent();
+        // event = prompt('Enter event ', '').toLowerCase();
         // allEvents = [];
     }
   
     else if(event === 'done'){
-        nextStage();
+        
+        nextDay();
 
     }
     else{
-        // dailyEvent.push(event);
-        // console.log(dailyEvent)
+        weekdayHandler.forEach(days => {
+            if(Number(days.day) == dayCount){
+                days.dailyEvent.push(event)
+            }
+            console.log(days.dailyEvent)
+        })
+
+
         promptEvent();
     }
     
 //   e.preventDefault();
 }
 
-function nextStage(){
+function nextDay(){
     let nextStageTrigger = prompt("Would you like to move on to the next day? (Enter a 'yes'or 'no')").toLowerCase()
     if(nextStageTrigger === 'yes'){
         dayCount = Number(dayCount) + 1;
@@ -53,11 +60,16 @@ function nextStage(){
             day: `${dayCount}`,
             dailyEvent: []
         })
-        console.log(weekdayHandler.title)
+        console.log(weekdayHandler)
         console.log('------------------------------------')
         alert('Please enter the events of ' + weekdays[dayCount - 1] + ' ' + '(Type \'Done\' to move on to the next day')
         // console.log('Enter events for the ' + weekdays[dayCount - 1])
         promptEvent();
+    }
+    else if(nextStageTrigger === 'no' || nextStageTrigger === null){
+        terminateEventEntries = true;
+        startEngine = false;
+        displaySummary(weekdayHandler);
     }
     else{
         return;
@@ -66,7 +78,7 @@ function nextStage(){
 }
 
 if(identity === ''){
-  alert(errorMessage);
+  alert('Your name is required');
   identity = prompt("----Hello, I'm Jack, what's your name?");
   console.log("Hello" + " " + identity);
   getAge();
@@ -98,13 +110,13 @@ function getAge(){
         promptEvent();
     }
     else if(isNaN(age)){
-        console.error('Input a number');
+        console.error('Input numbers only');
         getAge();
     }
     else if(age > 0 && age <= 16){
         alert('Uhm....Sorry, I\'m afraid you are too young to record my transformations');
     }
-    else if(age > 80){
+    else if(age > 90){
       alert('Uhm....Sorry, I\'m afraid you are too old to record my transformations');
     }
     else{
